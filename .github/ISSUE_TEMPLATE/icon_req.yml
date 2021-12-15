@@ -1,0 +1,56 @@
+name: Icon request
+description: Submit an icon request
+title: "Icon request: Team name"
+labels: ["icon request"]
+assignees:
+  - 
+body:
+  - type: markdown
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: Filename
+    attributes:
+      label: File name 
+      description: Name of the icon file to be created.
+      placeholder: This should match what will be in the repo and referenced in the code.
+      value: 
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Sizes needed
+      description: What sizes are needed for this icon?
+      multiple: true
+      options:
+        - 12x12
+        - 16x16
+        - 24x24
+        - 32x32
+        - 48x48
+    validations:
+      required: true
+  - type: textarea
+    id: descNotes
+    attributes:
+      label: Description/Notes
+      placeholder: A description of the command or option that goes with the icon
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: alt
+    attributes:
+      label: Alt text
+      description: The name of the command or option in the UI.
+      placeholder: 
+      value:
+    validation:
+      required: true
