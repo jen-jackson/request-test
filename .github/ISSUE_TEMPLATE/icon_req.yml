@@ -6,6 +6,16 @@ body:
   - type: markdown
     attributes: 
       value: "Form for icons in Pro"
+  - type: input
+    id: requestor-user
+    attributes:
+      label: Requestor name
+      description: Name of the team member requesting the icon
+  - type: input
+    id: requestor-team
+    attributes:
+      label: Requesting team
+      description: Name of the team requesting the icon
   - type: textarea
     id: filename
     attributes:
@@ -15,6 +25,12 @@ body:
       value: None
     validations:
       required: true
+  - type: input
+    id: devtopia-issue
+    attributes:
+      label: Issue associated with functionality
+      description: Provide a link to a related devtopia issue. 
+      placeholder: For example, if the icon is for Tool X, provide a link to a related issue in devtopia for the tool development.
   - type: textarea
     id: mockup
     attributes:
