@@ -3,7 +3,7 @@ description: Submit an icon request
 title: "Icon request: Team name"
 labels: ["icon request"]
 assignees:
-  - 
+  - @jen-jackson
 body:
   - type: markdown
     attributes: 
@@ -17,12 +17,12 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Filename
+    id: filename
     attributes:
       label: File name 
       description: Name of the icon file to be created.
       placeholder: This should match what will be in the repo and referenced in the code.
-      value: " "
+      value: BuildingFootprint
     validations:
       required: true
   - type: checkboxes
@@ -43,7 +43,7 @@ body:
     attributes:
       label: Description/Notes
       placeholder: A description of the command or option that goes with the icon
-      value: "  "
+      value: "None"
     validations:
       required: true
   - type: textarea
@@ -51,7 +51,7 @@ body:
     attributes:
       label: Alt text
       description: The name of the command or option in the UI.
-      placeholder: "  "
-      value: "  "
+      placeholder: This appears as the heading for the ScreenTip or the name of an option.
+      value: "None"
     validation:
       required: true
