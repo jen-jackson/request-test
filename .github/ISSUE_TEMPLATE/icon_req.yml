@@ -43,5 +43,5 @@ body:
       description: The name of the command or option in the UI.
       placeholder: This appears as the heading for the ScreenTip or the name of an option.
       value: "None"
-    validation:
+    validations:
       required: true
