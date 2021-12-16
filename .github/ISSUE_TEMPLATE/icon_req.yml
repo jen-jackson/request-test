@@ -12,9 +12,18 @@ body:
       label: File name 
       description: Name of the icon file to be created.
       placeholder: This should match what will be in the repo and referenced in the code.
-      value: BuildingFootprint
+      value: None
     validations:
       required: true
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Icon mockup 
+      description: Sample icon to be created.
+      placeholder: This is an idea the team has developed for the icon.
+      value: None
+    validations:
+      required: true      
   - type: checkboxes
     id: icon-size
     attributes:
@@ -23,7 +32,6 @@ body:
       options:
         - label: "12x12"
         - label: "16x16"
-          required: true
         - label: "24x24"
         - label: "32x32"
         - label: "48x48"
