@@ -21,11 +21,11 @@ body:
       label: Sizes needed
       description: What sizes are needed for this icon?
       options:
-        -label: twelve by twelve (12x12)
-        -label: sixteen by sixteen (16x16)
-        -label: twenty-four by twenty-four (24x24)
-        -label: thirty-two by thirty-two (32x32)
-        -label: forty-eight by forty-eight (48x48)
+        -label: "12x12"
+        -label: "16x16"
+        -label: "24x24"
+        -label: "32x32"
+        -label: "48x48"
     validations:
       required: true
   - type: textarea
