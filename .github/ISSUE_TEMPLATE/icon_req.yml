@@ -2,8 +2,6 @@ name: Icon request
 description: Submit an icon request
 title: "Icon request: Team name"
 labels: ["icon request"]
-assignees:
-  - @jen-jackson
 body:
   - type: markdown
     attributes: 
