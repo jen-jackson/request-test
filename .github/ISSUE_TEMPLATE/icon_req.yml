@@ -6,6 +6,8 @@ assignees:
   - 
 body:
   - type: markdown
+    attributes: 
+      value: "Form for icons in Pro"
   - type: input
     id: contact
     attributes:
