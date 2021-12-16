@@ -22,6 +22,7 @@ body:
       label: File name 
       description: Name of the icon file to be created.
       placeholder: This should match what will be in the repo and referenced in the code.
+      value: " "
     validations:
       required: true
   - type: checkboxes
@@ -42,6 +43,7 @@ body:
     attributes:
       label: Description/Notes
       placeholder: A description of the command or option that goes with the icon
+      value: "  "
     validations:
       required: true
   - type: textarea
@@ -49,6 +51,7 @@ body:
     attributes:
       label: Alt text
       description: The name of the command or option in the UI.
-      placeholder: 
+      placeholder: "  "
+      value: "  "
     validation:
       required: true
