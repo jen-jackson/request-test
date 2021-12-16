@@ -6,14 +6,6 @@ body:
   - type: markdown
     attributes: 
       value: "Form for icons in Pro"
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: filename
     attributes:
