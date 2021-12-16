@@ -20,21 +20,19 @@ body:
       label: File name 
       description: Name of the icon file to be created.
       placeholder: This should match what will be in the repo and referenced in the code.
-      value: 
     validations:
       required: true
-  - type: dropdown
-    id: size
+  - type: checkboxes
+    id: icon-size
     attributes:
       label: Sizes needed
       description: What sizes are needed for this icon?
-      multiple: true
       options:
-        - 12x12
-        - 16x16
-        - 24x24
-        - 32x32
-        - 48x48
+        -label: 12x12
+        -label: 16x16
+        -label: 24x24
+        -label: 32x32
+        -label: 48x48
     validations:
       required: true
   - type: textarea
@@ -42,7 +40,6 @@ body:
     attributes:
       label: Description/Notes
       placeholder: A description of the command or option that goes with the icon
-      value:
     validations:
       required: true
   - type: textarea
@@ -51,6 +48,5 @@ body:
       label: Alt text
       description: The name of the command or option in the UI.
       placeholder: 
-      value:
     validation:
       required: true
